@@ -5,7 +5,7 @@ void swap(int &x, int &y)
 {
     if (y && x != y)
     {
-        x = x * y;      // overflow can happen
+        x = x * y;      
         y = x / y;
         x = x / y;
     }
